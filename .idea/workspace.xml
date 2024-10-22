@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="workplace added.">
-      <change afterPath="$PROJECT_DIR$/src/AV/AV2/BigComplex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV2/CombinationLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV2/MatrixOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV2/StringPrefix.java" afterDir="false" />
+    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="AV2 added">
+      <change afterPath="$PROJECT_DIR$/src/AV/AV3/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV3/PlayingCard/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV3/PlayingCard/MultipleDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV3/PlayingCard/PlayingCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BigComplex.executor": "Run",
+    "Application.Date.executor": "Run",
+    "Application.Deck.executor": "Run",
     "Application.MatrixOperations.executor": "Run",
+    "Application.MultipleDeck.executor": "Run",
     "Application.NumberPrinter.executor": "Run",
     "Application.RangeFraction.executor": "Run",
     "Application.RomanConverter.executor": "Run",
@@ -70,9 +73,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BigComplex">
+  <component name="RunManager" selected="Application.Deck">
     <configuration name="BigComplex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AV.AV2.BigComplex" />
+      <module name="NP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV3.Date" />
+      <module name="NP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV3.PlayingCard.Deck" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,22 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV1.NumberPrinter" />
-      <module name="NP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV1.RomanConverter" />
-      <module name="NP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV2.StringPrefix" />
+    <configuration name="MultipleDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV3.PlayingCard.MultipleDeck" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deck" />
+        <item itemvalue="Application.MultipleDeck" />
+        <item itemvalue="Application.Date" />
         <item itemvalue="Application.BigComplex" />
         <item itemvalue="Application.MatrixOperations" />
-        <item itemvalue="Application.StringPrefix" />
-        <item itemvalue="Application.NumberPrinter" />
-        <item itemvalue="Application.RomanConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729526963426</updated>
       <workItem from="1729526964457" duration="6877000" />
-      <workItem from="1729589129503" duration="4952000" />
+      <workItem from="1729589129503" duration="16776000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -151,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729589149937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AV2 added">
+      <option name="closed" value="true" />
+      <created>1729598002881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729598002881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,13 +182,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AV1 added" />
     <MESSAGE value="workplace added." />
-    <option name="LAST_COMMIT_MESSAGE" value="workplace added." />
+    <MESSAGE value="AV2 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AV2 added" />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="keysInOrder.get(i);" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AV/AV3/Date.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
