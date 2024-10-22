@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="workplace added.">
+      <change afterPath="$PROJECT_DIR$/src/AV/AV2/BigComplex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV2/CombinationLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV2/MatrixOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV2/StringPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,24 +26,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MihailGjorgjiev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MihailGjorgjiev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MihailGjorgjiev/NP.git",
-    "accountId": "9715b0b3-0e85-46a4-8bd0-8c5fdd351f6b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MihailGjorgjiev/NP.git&quot;,
+    &quot;accountId&quot;: &quot;9715b0b3-0e85-46a4-8bd0-8c5fdd351f6b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2nkpX0R0L5EzUEEX37iNKOXJ9rb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,9 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BigComplex.executor": "Run",
+    "Application.MatrixOperations.executor": "Run",
     "Application.NumberPrinter.executor": "Run",
     "Application.RangeFraction.executor": "Run",
     "Application.RomanConverter.executor": "Run",
+    "Application.StringPrefix.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -64,16 +70,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberPrinter">
-    <configuration name="NumberPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV1.NumberPrinter" />
+  <component name="RunManager" selected="Application.BigComplex">
+    <configuration name="BigComplex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV2.BigComplex" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeFraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV1.RangeFraction" />
+    <configuration name="MatrixOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV2.MatrixOperations" />
+      <module name="NP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV1.NumberPrinter" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV2.StringPrefix" />
+      <module name="NP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigComplex" />
+        <item itemvalue="Application.MatrixOperations" />
+        <item itemvalue="Application.StringPrefix" />
         <item itemvalue="Application.NumberPrinter" />
         <item itemvalue="Application.RomanConverter" />
-        <item itemvalue="Application.RangeFraction" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729526963426</updated>
       <workItem from="1729526964457" duration="6877000" />
+      <workItem from="1729589129503" duration="4952000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -120,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729533777828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workplace added.">
+      <option name="closed" value="true" />
+      <created>1729589149937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729589149937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AV1 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="AV1 added" />
+    <MESSAGE value="workplace added." />
+    <option name="LAST_COMMIT_MESSAGE" value="workplace added." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
