@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="AV2 added">
-      <change afterPath="$PROJECT_DIR$/src/AV/AV3/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV3/PlayingCard/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV3/PlayingCard/MultipleDeck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV3/PlayingCard/PlayingCard.java" afterDir="false" />
+    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="AV3 added">
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/AlienPack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/MarshMallowMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/OgreAlien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/SnakeAlien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/InterestBearingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/InterestCheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/NonInterestCheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/PlatinumCheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +61,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AlienPack.executor": "Run",
     "Application.BigComplex.executor": "Run",
+    "Application.Calculator.executor": "Run",
     "Application.Date.executor": "Run",
     "Application.Deck.executor": "Run",
     "Application.MatrixOperations.executor": "Run",
@@ -73,9 +84,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Deck">
-    <configuration name="BigComplex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV2.BigComplex" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="AlienPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV4.Aliens.AlienPack" />
+      <module name="NP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV4.Calculator" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,13 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV2.MatrixOperations" />
-      <module name="NP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultipleDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AV.AV3.PlayingCard.MultipleDeck" />
       <module name="NP" />
@@ -111,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.AlienPack" />
         <item itemvalue="Application.Deck" />
         <item itemvalue="Application.MultipleDeck" />
         <item itemvalue="Application.Date" />
-        <item itemvalue="Application.BigComplex" />
-        <item itemvalue="Application.MatrixOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +147,8 @@
       <option name="presentableId" value="Default" />
       <updated>1729526963426</updated>
       <workItem from="1729526964457" duration="6877000" />
-      <workItem from="1729589129503" duration="16776000" />
+      <workItem from="1729589129503" duration="21994000" />
+      <workItem from="1729667603127" duration="5568000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -162,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729598002881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="AV3 added">
+      <option name="closed" value="true" />
+      <created>1729611598913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729611598913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +203,8 @@
     <MESSAGE value="AV1 added" />
     <MESSAGE value="workplace added." />
     <MESSAGE value="AV2 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="AV2 added" />
+    <MESSAGE value="AV3 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AV3 added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
