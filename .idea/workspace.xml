@@ -4,19 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="AV3 added">
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/AlienPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/MarshMallowMan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/OgreAlien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Aliens/SnakeAlien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/InterestBearingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/InterestCheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/NonInterestCheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Banking/PlatinumCheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV4/Calculator.java" afterDir="false" />
+    <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="AV4 added">
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/IntegerArray/IntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/IntegerArray/IntegerArrayTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/LocalDate/LocalDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/LocalDateTime/LocalDateTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/LocalTime/LocalTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/RomanConverter/RomanConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/RomanConverter/RomanConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/Archive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/ArchiveStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/ArchiveStoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/LockedArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/NonExistingItemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/SpecialArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Evaluator_10/Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Evaluator_10/EvaluatorBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Evaluator_10/EvaluatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Evaluator_10/IEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/FileNameExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/FileSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/IFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/DummyLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/ILog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/LogProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/LogSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/RealLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/MinAndMax_5/MinAndMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/MinAndMax_5/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_1/Shapes1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_1/ShapesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_2/Shapes2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_2/ShapesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Scalable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/ShapesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Stackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/InvalidTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/TimeFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/TimeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/TimesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/UnsupportedFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Triple_9/Triple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokvium/Triple_9/TripleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -47,6 +88,10 @@
     &quot;accountId&quot;: &quot;9715b0b3-0e85-46a4-8bd0-8c5fdd351f6b&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -62,16 +107,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AlienPack.executor": "Run",
+    "Application.ArchiveStoreTest.executor": "Run",
     "Application.BigComplex.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.Date.executor": "Run",
     "Application.Deck.executor": "Run",
+    "Application.FileSystemTest.executor": "Run",
+    "Application.LocalDateTest.executor": "Run",
+    "Application.LocalDateTimeTest.executor": "Run",
+    "Application.LocalTimeTest.executor": "Run",
+    "Application.LoggerTest.executor": "Run",
     "Application.MatrixOperations.executor": "Run",
+    "Application.MinAndMax.executor": "Run",
     "Application.MultipleDeck.executor": "Run",
     "Application.NumberPrinter.executor": "Run",
     "Application.RangeFraction.executor": "Run",
     "Application.RomanConverter.executor": "Run",
+    "Application.RomanConverterTest.executor": "Run",
+    "Application.Shapes1Test.executor": "Run",
+    "Application.Shapes2Test.executor": "Run",
+    "Application.ShapesTest.executor": "Run",
     "Application.StringPrefix.executor": "Run",
+    "Application.TimesTest.executor": "Run",
+    "Application.TripleTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -84,37 +142,42 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Calculator">
-    <configuration name="AlienPack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV4.Aliens.AlienPack" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="PrvKolokvium.IFile_3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LocalDateTimeTest">
+    <configuration name="LocalDateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Labs.Lab1.LocalDate.LocalDateTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV4.Calculator" />
+    <configuration name="LocalDateTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Labs.Lab1.LocalDateTime.LocalDateTimeTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV3.Date" />
+    <configuration name="LocalTimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Labs.Lab1.LocalTime.LocalTimeTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV3.PlayingCard.Deck" />
+    <configuration name="RomanConverterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Labs.Lab1.RomanConverter.RomanConverterTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV3.PlayingCard.MultipleDeck" />
+    <configuration name="TimesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrvKolokvium.Times_7.TimesTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.AlienPack" />
-        <item itemvalue="Application.Deck" />
-        <item itemvalue="Application.MultipleDeck" />
-        <item itemvalue="Application.Date" />
+        <item itemvalue="Application.LocalDateTimeTest" />
+        <item itemvalue="Application.TimesTest" />
+        <item itemvalue="Application.LocalTimeTest" />
+        <item itemvalue="Application.LocalDateTest" />
+        <item itemvalue="Application.RomanConverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +211,14 @@
       <updated>1729526963426</updated>
       <workItem from="1729526964457" duration="6877000" />
       <workItem from="1729589129503" duration="21994000" />
-      <workItem from="1729667603127" duration="5568000" />
+      <workItem from="1729667603127" duration="21416000" />
+      <workItem from="1729761177617" duration="5190000" />
+      <workItem from="1729842261010" duration="10241000" />
+      <workItem from="1729878109611" duration="7949000" />
+      <workItem from="1729951702147" duration="2251000" />
+      <workItem from="1730027071256" duration="4427000" />
+      <workItem from="1730103375139" duration="18159000" />
+      <workItem from="1730297758065" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -182,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729611598913</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="AV4 added">
+      <option name="closed" value="true" />
+      <created>1729674124149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729674124149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +282,8 @@
     <MESSAGE value="workplace added." />
     <MESSAGE value="AV2 added" />
     <MESSAGE value="AV3 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="AV3 added" />
+    <MESSAGE value="AV4 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="AV4 added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,6 +292,11 @@
           <url>file://$PROJECT_DIR$/src/AV/AV3/Date.java</url>
           <line>146</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PrvKolokvium/MinAndMax_5/MinMax.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
