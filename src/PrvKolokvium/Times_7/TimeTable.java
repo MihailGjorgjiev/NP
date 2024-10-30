@@ -41,10 +41,11 @@ public class TimeTable {
 
     public void writeTimes(OutputStream outputStream, TimeFormat timeFormat) throws IOException {
 
-        try(PrintWriter writer = new PrintWriter(outputStream)) {
+        try(BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream))) {
             Collections.sort(timesList);
             for (Time time : timesList) {
-                writer.println(time.toString(timeFormat));
+                writer.write(time.toString(timeFormat));
+                writer.newLine();
             }
             writer.flush();
         }
