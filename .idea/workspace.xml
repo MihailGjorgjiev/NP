@@ -5,18 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="Tasks added.">
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/FilterAndSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/FilterAndSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/Race/RaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/Race/TeamRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/IntegerArray/IntegerArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/IntegerArray/IntegerArrayTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/LocalDate/LocalDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/LocalDateTime/LocalDateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/LocalTime/LocalTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/RomanConverter/RomanConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab1/RomanConverter/RomanConverterTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Bank/Account.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Bank/Bank.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Bank/BankTester.java" afterDir="false" />
@@ -35,7 +23,6 @@
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/Contact.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/ContactsTester.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/EmailContact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/Faculty.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/Operator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/PhoneContact.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/Contacts/Student.java" afterDir="false" />
@@ -45,108 +32,11 @@
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/DoubleMatrix/InvalidColumnNumberException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/DoubleMatrix/InvalidRowNumberException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab2/DoubleMatrix/MatrixReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ApplicantEvaluation_12/Applicant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ApplicantEvaluation_12/ApplicantEvaluationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ApplicantEvaluation_12/Evaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ApplicantEvaluation_12/EvaluatorBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ApplicantEvaluation_12/InvalidEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Component_13/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Component_13/ComponentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Component_13/InvalidPositionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Component_13/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Evaluator_10/Evaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Evaluator_10/EvaluatorBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Evaluator_10/EvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Evaluator_10/IEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/F1_21/F1Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/F1_21/F1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/CategoryNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/FrontPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/FrontPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/MediaNewsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/NewsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FrontPage_17/TextNewsItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/GenericFraction_11/GenericFraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/GenericFraction_11/GenericFractionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/GenericFraction_11/ZeroDenominatorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/LoadedCoin_18/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/LoadedCoin_18/LoadedCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/LoadedCoin_18/LoadedCoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/LoadedCoin_18/SIDE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/AmountNotAllowedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/MojDDV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/MojDDVTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Quiz_23/InvalidOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Quiz_23/MCQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Quiz_23/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Quiz_23/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Quiz_23/QuizTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Quiz_23/TFQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Risk_24/Risk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Risk_24/RiskTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Risk_27/Risk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Risk_27/RiskTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shopping_25/InvalidOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shopping_25/PieceProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shopping_25/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shopping_25/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shopping_25/ShoppingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shopping_25/WholeProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Subtitles_19/SubtitleLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Subtitles_19/Subtitles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Subtitles_19/SubtitlesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/PriorityTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/Schedulers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/TaskRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/TaskSchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/TaskScheduler_20/TimedTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/WeatherStation_14/WeatherReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/WeatherStation_14/WeatherStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/WeatherStation_14/WeatherStationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_16/AmountNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_16/MojDDV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_16/MojDDVTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ArchiveStore_8/Archive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/ArchiveStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ArchiveStore_8/ArchiveStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/ArchiveStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ArchiveStore_8/ArchiveStoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/LockedArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ArchiveStore_8/LockedArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/NonExistingItemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ArchiveStore_8/NonExistingItemException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ArchiveStore_8/SpecialArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ArchiveStore_8/SpecialArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FileSystem_3/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/FileNameExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FileSystem_3/FileNameExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/FileSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FileSystem_3/FileSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/FileSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FileSystem_3/FileSystemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FileSystem_3/Folder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/FileSystem_3/IFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/FileSystem_3/IFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/DummyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Logger_4/DummyLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/ILog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Logger_4/ILog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/LogProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Logger_4/LogProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/LogSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Logger_4/LogSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Logger_4/LoggerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Logger_4/RealLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Logger_4/RealLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/MinAndMax_5/MinAndMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MinAndMax_5/MinAndMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/MinAndMax_5/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MinAndMax_5/MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_1/Shapes1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ShapesApplication_1/Shapes1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_1/ShapesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ShapesApplication_1/ShapesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_2/Shapes2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ShapesApplication_2/Shapes2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/ShapesApplication_2/ShapesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/ShapesApplication_2/ShapesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Scalable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Scalable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/ShapesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/ShapesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Shapes_6/Stackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Shapes_6/Stackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/InvalidTimeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/InvalidTimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/TimeFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimeFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/TimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Times_7/UnsupportedFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/UnsupportedFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Triple_9/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Triple_9/Triple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokvium/Triple_9/TripleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Triple_9/TripleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/MojDDV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/MojDDV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +135,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/GitHub/NP",
+    "last_opened_file_path": "D:/Idea Projects/NetceteraTutorials/hibernate/jpa_c1_e1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -256,23 +146,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="PrvKolokviumVezbi.MojDDV_16" />
       <recent name="PrvKolokviumVezbi.Risk_27" />
       <recent name="PrvKolokviumVezbi.Equation_26" />
       <recent name="PrvKolokviumVezbi.Shopping_25" />
       <recent name="PrvKolokviumVezbi.Risk_24" />
-      <recent name="PrvKolokviumVezbi.Quiz_23" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeatherStationTest">
-    <configuration name="PrvKolokviumVezbi.Risk_27.RiskTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.Risk_27.RiskTester" />
+  <component name="RunManager" selected="Application.MojDDVTest">
+    <configuration name="MojDDVTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.MojDDV_16.MojDDVTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RiskTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.Risk_24.RiskTester" />
+    <configuration name="PrvKolokviumVezbi.Risk_27.RiskTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.Risk_27.RiskTester" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -301,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MojDDVTest" />
         <item itemvalue="Application.WeatherStationTest" />
         <item itemvalue="Application.TimesTest" />
         <item itemvalue="Application.PrvKolokviumVezbi.Risk_27.RiskTester" />
         <item itemvalue="Application.ShoppingTest" />
-        <item itemvalue="Application.RiskTester" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +231,9 @@
       <workItem from="1730547976942" duration="18553000" />
       <workItem from="1730651598645" duration="4751000" />
       <workItem from="1730705742670" duration="23997000" />
-      <workItem from="1730807324680" duration="9900000" />
+      <workItem from="1730807324680" duration="9981000" />
+      <workItem from="1730973583923" duration="1462000" />
+      <workItem from="1731047270447" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -399,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730300072663</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tasks added.">
+      <option name="closed" value="true" />
+      <created>1730836773766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730836773766</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

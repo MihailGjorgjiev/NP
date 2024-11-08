@@ -1,4 +1,4 @@
-package PrvKolokviumVezbi.MojDDV_15;
+package PrvKolokviumVezbi.MojDDV_16;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -69,6 +69,24 @@ public class MojDDV {
                 writer.write(String.format("%d %d %.2f",ids.get(i),costs.get(i),taxReturns.get(i)));
                 writer.newLine();
             }
+        }
+    }
+
+    public void printStatistics(OutputStream outputStream) throws IOException {
+        try (BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(outputStream))){
+            int minCost=costs.stream().mapToInt(Integer::intValue).min().orElse(0);
+            int maxCost=costs.stream().mapToInt(Integer::intValue).max().orElse(0);
+            int sum=costs.stream().mapToInt(Integer::intValue).sum();
+            int count= (int) costs.stream().mapToInt(Integer::intValue).count();
+            double average=costs.stream().mapToInt(Integer::intValue).average().orElse(0);
+
+            writer.write(String.format("min:\t%d\n",minCost));
+            writer.write(String.format("max:\t%d\n",maxCost));
+            writer.write(String.format("sum:\t%d\n",sum));
+            writer.write(String.format("count:\t%d\n",count));
+            writer.write(String.format("avg:\t%.3f\n",average));
+
+
         }
     }
 }
