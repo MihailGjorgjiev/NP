@@ -3,9 +3,6 @@ package PrvKolokviumVezbi.TaskScheduler_20;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * I Partial exam 2016
- */
 public class TaskSchedulerTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -36,4 +33,3 @@ public class TaskSchedulerTest {
         scanner.close();
     }
 }
-

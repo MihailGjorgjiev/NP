@@ -46,7 +46,7 @@ public class MojDDV {
                             break;
                     }
                     itemCost += priceBeforeTax;
-                    itemTax += tax;
+                    itemTax += tax*0.15;
                 }
                 if(itemCost>30000){
                     try {
@@ -55,10 +55,12 @@ public class MojDDV {
                         System.out.println(e.getMessage());
                         continue;
                     }
+                }else{
+                    ids.add(id);
+                    costs.add(itemCost);
+                    taxReturns.add(itemTax);
+
                 }
-                ids.add(id);
-                costs.add(itemCost);
-                taxReturns.add(itemTax * 0.15);
             }
         }
     }
@@ -68,6 +70,7 @@ public class MojDDV {
             for(int i=0;i< ids.size();i++){
                 writer.write(String.format("%d %d %.2f",ids.get(i),costs.get(i),taxReturns.get(i)));
                 writer.newLine();
+
             }
         }
     }

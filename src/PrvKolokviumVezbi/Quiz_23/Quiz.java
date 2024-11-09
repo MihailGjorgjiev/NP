@@ -36,10 +36,10 @@ public class Quiz {
 
 
     public void answerQuiz(List<String> answers, OutputStream os) throws IOException, InvalidOperationException {
+        if(answers.size()!= questions.size()){
+            throw new InvalidOperationException("Answers and questions must be of same length!");
+        }
         try(BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(os))){
-            if(answers.size()!= questions.size()){
-                throw new InvalidOperationException("Answers and questions must be of same length!");
-            }
             double totalPoints=0;
             for (int i = 0; i < questions.size(); i++) {
                 double pts=0;

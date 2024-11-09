@@ -1,7 +1,6 @@
 package PrvKolokviumVezbi.Component_13;
 
 import java.util.Scanner;
-
 public class ComponentTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

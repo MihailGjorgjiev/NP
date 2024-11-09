@@ -1,10 +1,13 @@
 package PrvKolokviumVezbi.WeatherStation_14;
 
+import PrvKolokviumVezbi.Times_7.TimeTable;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
+import java.util.TimeZone;
 
 public class WeatherStationTest {
     public static void main(String[] args) throws ParseException {
@@ -40,3 +43,5 @@ public class WeatherStationTest {
         }
     }
 }
+
+// vashiot kod ovde

@@ -1,6 +1,8 @@
 package PrvKolokviumVezbi.Subtitles_19;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class SubtitlesTest {
     public static void main(String[] args) {
@@ -25,7 +27,9 @@ public class SubtitlesTest {
         try {
             subtitles.print();
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 }
+
+// Вашиот код овде

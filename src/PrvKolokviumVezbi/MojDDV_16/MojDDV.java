@@ -55,10 +55,12 @@ public class MojDDV {
                         System.out.println(e.getMessage());
                         continue;
                     }
-                }
+                }else{
                 ids.add(id);
-                costs.add(itemCost);
-                taxReturns.add(itemTax * 0.15);
+                    costs.add(itemCost);
+                    taxReturns.add(itemTax * 0.15);
+
+                }
             }
         }
     }
@@ -66,7 +68,7 @@ public class MojDDV {
     public void printTaxReturns(OutputStream outputStream) throws IOException {
         try (BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(outputStream))){
             for(int i=0;i< ids.size();i++){
-                writer.write(String.format("%d %d %.2f",ids.get(i),costs.get(i),taxReturns.get(i)));
+                writer.write(String.format("%10d\t%10d\t%10.5f",ids.get(i),costs.get(i),taxReturns.get(i)));
                 writer.newLine();
             }
         }

@@ -1,44 +1,55 @@
 package PrvKolokviumVezbi.Component_13;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Window {
     private String name;
-    private List<Component> componentList;
+    private HashMap<Integer, Component> componentHashMap;
 
     public Window(String name) {
         this.name = name;
-        componentList=new ArrayList<>();
+        this.componentHashMap = new HashMap<>();
     }
-    public void addComponent(int position, Component component) throws InvalidPositionException {
-        if(position>componentList.size()){
-            throw new InvalidPositionException(String.format("Invalid position %d, alredy taken!",position));
+
+    void addComponent(int position, Component component) throws InvalidPositionException {
+        if (componentHashMap.containsKey(position)) {
+            throw new InvalidPositionException(String.format("Invalid position %d, alredy taken!", position));
         }
-        componentList.add(position, component);
+        componentHashMap.put(position, component);
     }
 
     @Override
     public String toString() {
-        StringBuilder sb=new StringBuilder();
-        sb.append(name).append("\n");
-        for(Component component:componentList){
-            sb.append(component).append("\n");
+        StringBuilder sb = new StringBuilder();
+        sb.append("WINDOW "+name).append("\n");
+        for (Integer k : componentHashMap.keySet().stream().mapToInt(Integer::intValue).sorted().toArray()) {
+            sb.append(String.format("%d:",k)).append(componentHashMap.get(k).depthToString(0)).append("\n");
         }
         return sb.toString();
     }
 
-    public void changeColor(int weight, String color){
-        for(Component component: componentList){
-            if(component.getWeight()<weight){
-                component.setColor(color);
-            }
+    private static void componentChangeColor(Component component, int weight, String color) {
+        if (component.getWeight() < weight) {
+            component.setColor(color);
+        }
+        for (Component c : component.getComponentList()) {
+            componentChangeColor(c, weight, color);
         }
     }
 
-    public void swichComponents(int pos1, int pos2){
-        Component temp=componentList.get(pos1);
-        componentList.add(pos1,componentList.get(pos2));
-        componentList.add(pos2,temp);
+    public void changeColor(int weight, String color) {
+        for (Integer k : componentHashMap.keySet()) {
+            componentChangeColor(componentHashMap.get(k), weight, color);
+        }
+    }
+
+    public void swichComponents(int pos1, int pos2) {
+        Component comp1 = componentHashMap.get(pos1);
+        Component comp2 = componentHashMap.get(pos2);
+
+        componentHashMap.put(pos1, comp2);
+        componentHashMap.put(pos2, comp1);
     }
 }

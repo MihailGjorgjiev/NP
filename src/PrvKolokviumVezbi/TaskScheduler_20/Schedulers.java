@@ -1,19 +1,25 @@
 package PrvKolokviumVezbi.TaskScheduler_20;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Schedulers {
-    public static <T> TaskScheduler<T> getOrdered() {
+    public static <T extends Task> TaskScheduler<T> getOrdered() {
 
-        // vashiot kod ovde (annonimous class)
-        return List::of;
+        return new TaskScheduler<T>() {
+            @Override
+            public List<T> schedule(T[] tasks) {
+                return Arrays.stream(tasks).sorted(Comparator.comparingInt(Task::getOrder)).collect(Collectors.toList());
+            }
+        };
 
     }
 
-    public static <T> TaskScheduler<T> getFiltered(int order) {
+    public static <T extends Task> TaskScheduler<T> getFiltered(int order) {
 
-        // vashiot kod ovde (lambda expression)
-        if (order<0) return null;
-        return List::of;
+        return tasks -> Arrays.stream(tasks).filter(t->t.getOrder()<=order).collect(Collectors.toList());
+
     }
 }

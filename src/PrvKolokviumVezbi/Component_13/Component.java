@@ -1,46 +1,79 @@
 package PrvKolokviumVezbi.Component_13;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Component {
     private String color;
     private int weight;
-    private List<Component> componentList;
+    List<Component> componentList;
 
     public Component(String color, int weight) {
         this.color = color;
         this.weight = weight;
-        this.componentList=new ArrayList<>();
+        this.componentList = new ArrayList<>();
     }
 
-    public void addComponent(Component component){
-        componentList.add(component);
-        componentList.sort((o1, o2) -> {
-            int weightDiff=o1.weight-o2.weight;
-            if(weightDiff<0) return -1;
-            if(weightDiff>0) return 1;
-            return o1.color.compareTo(o2.color);
-        });
-    }
+    public void addComponent(Component component) {
+        if (componentList.size() == 0) {
+            componentList.add(component);
+            return;
+        }
+        int i;
+        for (i = 0; i < componentList.size(); i++) {
+            if(component.weight<componentList.get(i).weight){
+                break;
+            }
+            if(component.weight == componentList.get(i).weight){
+                if (component.color.compareTo(componentList.get(i).color)<0){
+                    break;
+                }
+            }
+        }
+        componentList.add(i,component);
 
-    @Override
-    public String toString() {
-        return String.format("%d:%s",weight,color);
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
     }
 
     public String getColor() {
         return color;
     }
 
+    public int getWeight() {
+        return weight;
+    }
+
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public List<Component> getComponentList() {
+        return componentList;
+    }
+
+    public String depthToString(int depth){
+        String beginning="---".repeat(depth);
+        StringBuilder componentBuilder=new StringBuilder();
+
+        componentBuilder.append(beginning).append(String.format("%d:%s",weight,color));
+        for (Component component : componentList) {
+            componentBuilder.append("\n").append(component.depthToString(depth+1));
+
+        }
+        return componentBuilder.toString();
+    }
+    @Override
+    public String toString() {
+        StringBuilder componentBuilder = new StringBuilder();
+        componentBuilder.append(String.format("%d:%s",weight,color));
+        for (Component component : componentList) {
+            componentBuilder.append("\n").append(component.toString());
+
+        }
+        return componentBuilder.toString();
+
     }
 }
