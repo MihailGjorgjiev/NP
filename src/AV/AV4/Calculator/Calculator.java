@@ -1,6 +1,5 @@
-package AV.AV4;
+package AV.AV4.Calculator;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Calculator {

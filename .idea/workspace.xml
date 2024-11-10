@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="Tasks added.">
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/EmptyResultException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/StreamingPlatform/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/StreamingPlatform/MovieItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/StreamingPlatform/SeriesItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/StreamingPlatform/StreamingPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/StreamingPlatform/StreamingPlatformTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/OldestPerson/FindOldest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/WordCount/WordCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/FilterAndSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/FilterAndSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/FilterAndSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/FilterAndSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kolokviumi2023/PrvKolokvium/FilterAndSort/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/Equation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/MojDDV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_15/MojDDV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_16/MojDDV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/MojDDV_16/MojDDV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/Rule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/RuleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/RuleProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/RuleTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/RuleTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Rule_22/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/Time.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Times_7/TimesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AV/AV4/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV/AV4/Calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +110,7 @@
     "Application.TimesTest.executor": "Run",
     "Application.TripleTest.executor": "Run",
     "Application.WeatherStationTest.executor": "Run",
+    "Application.WordCount.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -150,14 +133,7 @@
       <recent name="PrvKolokviumVezbi.Risk_27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MojDDVTest">
-    <configuration name="EquationTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.Equation_26.EquationTester" />
-      <module name="NP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WordCount">
     <configuration name="FilterAndSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kolokviumi2023.PrvKolokvium.FilterAndSort.FilterAndSortTest" />
       <module name="NP" />
@@ -186,13 +162,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AV.AV5.TextFile.WordCount.WordCount" />
+      <module name="NP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.MojDDVTest" />
         <item itemvalue="Application.PrvKolokviumVezbi.Times_7.TimesTest" />
         <item itemvalue="Application.StreamingPlatformTest" />
         <item itemvalue="Application.FilterAndSortTest" />
-        <item itemvalue="Application.EquationTester" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +216,7 @@
       <workItem from="1731047270447" duration="12823000" />
       <workItem from="1731159737817" duration="15450000" />
       <workItem from="1731184575008" duration="2561000" />
-      <workItem from="1731233765773" duration="14712000" />
+      <workItem from="1731233765773" duration="18364000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -315,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731175711723</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tasks added.">
+      <option name="closed" value="true" />
+      <created>1731251536687</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731251536687</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
