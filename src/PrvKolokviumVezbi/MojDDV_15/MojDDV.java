@@ -46,7 +46,7 @@ public class MojDDV {
                             break;
                     }
                     itemCost += priceBeforeTax;
-                    itemTax += tax*0.15;
+                    itemTax += tax;
                 }
                 if(itemCost>30000){
                     try {
@@ -58,7 +58,7 @@ public class MojDDV {
                 }else{
                     ids.add(id);
                     costs.add(itemCost);
-                    taxReturns.add(itemTax);
+                    taxReturns.add(itemTax*0.15);
 
                 }
             }

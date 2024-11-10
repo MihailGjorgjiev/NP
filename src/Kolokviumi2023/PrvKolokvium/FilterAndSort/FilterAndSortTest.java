@@ -27,10 +27,25 @@ public class FilterAndSortTest {
 
             if (studentScenario == 1) {
                 //TODO filter and sort all students who have at least 8.0 points and are at least 3rd year student
+                try {
+                    List<Student> result=FilterAndSort.execute(students,s ->s.labAssistantPoints()>=8.0 &&  s.getYear()>=3);
+                    for(Student s:result){
+                        System.out.println(s);
+                    }
+                } catch (EmptyResultException e) {
+                    System.out.println(e.getMessage());
+                }
 
             } else {
                 //TODO filter and sort all students who have passed at least 90% of their total courses with an average grade of at least 9.0
-
+                try {
+                    List<Student> result=FilterAndSort.execute(students,s-> (double) s.grades.size() /s.totalCourses()>0.9 && s.average()>=9.0);
+                    for(Student s:result){
+                        System.out.println(s);
+                    }
+                } catch (EmptyResultException e) {
+                    System.out.println(e.getMessage());
+                }
             }
         } else { //integers
             List<Integer> integers = new ArrayList<>();
@@ -38,7 +53,14 @@ public class FilterAndSortTest {
                 integers.add(Integer.parseInt(sc.nextLine()));
                 --n;
             }
-
+            try {
+                List<Integer> result=FilterAndSort.execute(integers,num->num%15==0);
+                for(Integer i:result){
+                    System.out.println(i);
+                }
+            } catch (EmptyResultException e) {
+                System.out.println(e.getMessage());
+            }
             //TODO filter and sort all even numbers divisible with 15
 
         }

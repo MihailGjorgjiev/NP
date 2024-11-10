@@ -29,7 +29,7 @@ public class MojDDV {
                 double itemTax = 0;
                 for (int i = 1; i < parts.length; i += 2) {
                     int priceBeforeTax = Integer.parseInt(parts[i]);
-                    char taxType = parts[i+1].charAt(0);
+                    char taxType = parts[i + 1].charAt(0);
                     double tax;
                     switch (taxType) {
                         case 'A':
@@ -48,15 +48,15 @@ public class MojDDV {
                     itemCost += priceBeforeTax;
                     itemTax += tax;
                 }
-                if(itemCost>30000){
+                if (itemCost > 30000) {
                     try {
-                        throw new AmountNotAllowedException(String.format("Receipt with amount %d is not allowed to be scanned",itemCost));
+                        throw new AmountNotAllowedException(String.format("Receipt with amount %d is not allowed to be scanned", itemCost));
                     } catch (AmountNotAllowedException e) {
                         System.out.println(e.getMessage());
                         continue;
                     }
-                }else{
-                ids.add(id);
+                } else {
+                    ids.add(id);
                     costs.add(itemCost);
                     taxReturns.add(itemTax * 0.15);
 
@@ -66,29 +66,29 @@ public class MojDDV {
     }
 
     public void printTaxReturns(OutputStream outputStream) throws IOException {
-        try (BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(outputStream))){
-            for(int i=0;i< ids.size();i++){
-                writer.write(String.format("%10d\t%10d\t%10.5f",ids.get(i),costs.get(i),taxReturns.get(i)));
-                writer.newLine();
-            }
+        PrintWriter writer = new PrintWriter(outputStream);
+        for (int i = 0; i < ids.size(); i++) {
+            writer.println(String.format("%10d\t%10d\t%10.5f", ids.get(i), costs.get(i), taxReturns.get(i)));
         }
+        writer.flush();
     }
 
     public void printStatistics(OutputStream outputStream) throws IOException {
-        try (BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(outputStream))){
-            int minCost=costs.stream().mapToInt(Integer::intValue).min().orElse(0);
-            int maxCost=costs.stream().mapToInt(Integer::intValue).max().orElse(0);
-            int sum=costs.stream().mapToInt(Integer::intValue).sum();
-            int count= (int) costs.stream().mapToInt(Integer::intValue).count();
-            double average=costs.stream().mapToInt(Integer::intValue).average().orElse(0);
+        PrintWriter writer = new PrintWriter(outputStream);
 
-            writer.write(String.format("min:\t%d\n",minCost));
-            writer.write(String.format("max:\t%d\n",maxCost));
-            writer.write(String.format("sum:\t%d\n",sum));
-            writer.write(String.format("count:\t%d\n",count));
-            writer.write(String.format("avg:\t%.3f\n",average));
+        double minCost = taxReturns.stream().mapToDouble(Double::doubleValue).min().orElse(0);
+        double maxCost = taxReturns.stream().mapToDouble(Double::doubleValue).max().orElse(0);
+        double sum = taxReturns.stream().mapToDouble(Double::doubleValue).sum();
+        int count = (int) taxReturns.stream().mapToDouble(Double::doubleValue).count();
+        double average = taxReturns.stream().mapToDouble(Double::doubleValue).average().orElse(0);
 
+        writer.write(String.format("min:\t%.3f\n", minCost));
+        writer.write(String.format("max:\t%.3f\n", maxCost));
+        writer.write(String.format("sum:\t%.3f\n", sum));
+        writer.write(String.format("count:\t%d\n", count));
+        writer.write(String.format("avg:\t%.3f\n", average));
 
-        }
+        writer.flush();
+
     }
 }

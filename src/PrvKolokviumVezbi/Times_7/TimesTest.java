@@ -13,17 +13,9 @@ public class TimesTest {
         }
 
         System.out.println("24 HOUR FORMAT");
-        try {
-            timeTable.writeTimes(System.out, TimeFormat.FORMAT_24);
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
+        timeTable.writeTimes(System.out, TimeFormat.FORMAT_24);
         System.out.println("AM/PM FORMAT");
-        try {
-            timeTable.writeTimes(System.out, TimeFormat.FORMAT_24);
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
+        timeTable.writeTimes(System.out, TimeFormat.FORMAT_AMPM);
     }
 
 }

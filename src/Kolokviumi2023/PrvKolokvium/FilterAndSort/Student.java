@@ -1,10 +1,9 @@
 package Kolokviumi2023.PrvKolokvium.FilterAndSort;
 
-import java.util.*;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
+import java.util.Comparator;
+import java.util.List;
 
-class Student implements Comparable<Student> {
+public class Student implements Comparable<Student> {
     String id;
     List<Integer> grades;
 
@@ -41,5 +40,3 @@ class Student implements Comparable<Student> {
         return String.format("Student %s (%d year) - %d/%d passed exam, average grade %.2f.\nLab assistant points: %.2f", id, getYear(), grades.size(), totalCourses(), average(), labAssistantPoints());
     }
 }
-
-
