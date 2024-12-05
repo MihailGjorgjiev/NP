@@ -5,10 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="Tasks added.">
-      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/OldestPerson/FindOldest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/WordCount/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/BinaryFile/BinaryNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/BinaryFile/numbers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/CalculateGrades/CalculateGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/CalculateGrades/CalculateGradesImproved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/CalculateGrades/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/CalculateGrades/grades.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/LongestPalindrome/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV5/TextFile/LongestPalindrome/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV6/Box/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV6/PriorityQueue/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV6/StandardDeviation/Maths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/ArrangeLetters/ArrangeLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/BenfordLawTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/CountVisualizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/LineNumberReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/NumbersReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/SunspotNumberReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/librarybooks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/livejournal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/BenfordsLaw/sunspots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/AV7/RandomPicker/RandomPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/MinMax/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/StackedCanvas/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/StackedCanvas/CanvasForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/StackedCanvas/CircleForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/StackedCanvas/RectangleForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/TimeTable/InvalidTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/TimeTable/TimeFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/TimeTable/TimeTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/TimeTable/TimesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AV/FirstMidTermPractice/TimeTable/UnsupportedFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/EmptyOrderException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/ExtraItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/InvalidExtraTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/InvalidPizzaTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/ItemOutOfStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/OrderLockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Exceptions/Custom/Pizzeria/PizzaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/ArchiveStore/Archive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/ArchiveStore/ArchiveStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/ArchiveStore/LockedArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/ArchiveStore/NonExistingItemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/ArchiveStore/SpecialArchive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/BodyForm/BodyForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/DataStructures/Collections/BodyForm/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/Introduction/Classes/GenericFraction/GenericFraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/Introduction/Classes/GenericTable/GenericTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/Introduction/Classes/Triple/Triple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Generics/Introduction/IntefacesFunctions/GenericFunctions/GenericFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Classes/IntegerArray/ArrayReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Classes/IntegerArray/IntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Bank/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Bank/FlatAmountProvisionTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Bank/FlatPercentProvisionTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Bank/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Canvas/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Canvas/CircleForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Canvas/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Canvas/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/OOP/Inheritance/Canvas/RectangleForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/BufferedWriter/CakeShopApplication/CakeItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/BufferedWriter/CakeShopApplication/CakeShopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/BufferedWriter/CakeShopApplication/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/PrintWriter/CheckIn/CheckIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/PrintWriter/CheckIn/InvalidCheckInTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/PrintWriter/CheckIn/LogElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/Scanner/Subtitles/SubtitleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/ReadWrite/Scanner/Subtitles/Subtitles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/ComplexNumber/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/ComplexNumber/ComplexNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/IntegerList/IntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/IntegerList/IntegerListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/EmptyOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/ExtraItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/InvalidExtraTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/InvalidPizzaTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/ItemOutOfStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/OrderLockedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/PizzaItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/PizzaOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Queue/EmptyQueueException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Queue/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/ResizableArray/IntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/ResizableArray/ResizableArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/ResizableArray/ResizableArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Sheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Sheduler/SchedulerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab3/Sheduler/Timestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/IntegerList/IntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/IntegerList/IntegerListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/RandomGenerator/RandomGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/RandomGenerator/RandomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/RandomGenerator/TestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/RandomGenerator/TestNumbersList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/SuperString/SuperString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab4/SuperString/SuperStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Audition_1/Audition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Audition_1/AuditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Audition_1/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Audition_1/CityParticipants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Books_2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Books_2/BookCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Books_2/BooksTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Discounts_3/Discounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Discounts_3/DiscountsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Discounts_3/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Discounts_3/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/FileSystem_4/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/FileSystem_4/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/FileSystem_4/FileSystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AV/AV4/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AV/AV4/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/Equation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrvKolokviumVezbi/Equation_26/EquationTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,114 +174,146 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AlienPack.executor": "Run",
-    "Application.ApplicantEvaluationTest.executor": "Run",
-    "Application.ArchiveStoreTest.executor": "Run",
-    "Application.BankTester.executor": "Run",
-    "Application.BigComplex.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.CirclesTest.executor": "Run",
-    "Application.ComponentTest.executor": "Run",
-    "Application.ContactsTester.executor": "Debug",
-    "Application.Date.executor": "Run",
-    "Application.Deck.executor": "Run",
-    "Application.DoubleMatrixTester.executor": "Run",
-    "Application.EquationTester.executor": "Run",
-    "Application.EvaluatorTest.executor": "Run",
-    "Application.F1Test.executor": "Run",
-    "Application.FileSystemTest.executor": "Run",
-    "Application.FilterAndSortTest.executor": "Debug",
-    "Application.FrontPageTest.executor": "Run",
-    "Application.GenericFractionTest.executor": "Run",
-    "Application.LoadedCoinTest.executor": "Run",
-    "Application.LocalDateTest.executor": "Run",
-    "Application.LocalDateTimeTest.executor": "Run",
-    "Application.LocalTimeTest.executor": "Run",
-    "Application.LoggerTest.executor": "Run",
-    "Application.MatrixOperations.executor": "Run",
-    "Application.MinAndMax.executor": "Run",
-    "Application.MojDDVTest.executor": "Run",
-    "Application.MojDDVTest2.executor": "Run",
-    "Application.MultipleDeck.executor": "Run",
-    "Application.NumberPrinter.executor": "Run",
-    "Application.PrvKolokviumVezbi.MojDDV_15.MojDDVTest.executor": "Run",
-    "Application.PrvKolokviumVezbi.Risk_27.RiskTester.executor": "Run",
-    "Application.PrvKolokviumVezbi.Times_7.TimesTest.executor": "Run",
-    "Application.QuizTest.executor": "Run",
-    "Application.RaceTest.executor": "Run",
-    "Application.RangeFraction.executor": "Run",
-    "Application.RiskTester.executor": "Run",
-    "Application.RomanConverter.executor": "Run",
-    "Application.RomanConverterTest.executor": "Run",
-    "Application.RuleTester.executor": "Run",
-    "Application.Shapes1Test.executor": "Run",
-    "Application.Shapes2Test.executor": "Run",
-    "Application.ShapesTest.executor": "Run",
-    "Application.ShoppingTest.executor": "Run",
-    "Application.StreamingPlatformTest.executor": "Run",
-    "Application.StringPrefix.executor": "Run",
-    "Application.SubtitlesTest.executor": "Run",
-    "Application.TaskSchedulerTest.executor": "Run",
-    "Application.TimesTest (1).executor": "Run",
-    "Application.TimesTest.executor": "Run",
-    "Application.TripleTest.executor": "Run",
-    "Application.WeatherStationTest.executor": "Run",
-    "Application.WordCount.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Idea Projects/NetceteraTutorials/hibernate/jpa_c1_e1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AlienPack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ApplicantEvaluationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArchiveStoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrangeLetters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AuditionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BenfordLawTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BigComplex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooksTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Box.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CirclesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComplexNumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComponentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContactsTester.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Date.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiscountsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoubleMatrixTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EquationTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvaluatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.F1Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.File.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileSystemTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterAndSortTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FrontPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericFractionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IntegerListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoadedCoinTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateTimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalTimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoggerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maths.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinAndMax.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinMax.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MojDDVTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MojDDVTest2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleDeck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberPrinter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PizzaOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PriorityQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrvKolokviumVezbi.MojDDV_15.MojDDVTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrvKolokviumVezbi.Risk_27.RiskTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrvKolokviumVezbi.Times_7.TimesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuizTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomPicker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RangeFraction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResizableArrayTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RiskTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanConverter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RomanConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RuleTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SchedulerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Shapes1Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Shapes2Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShapesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShoppingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamingPlatformTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subtitles.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubtitlesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SuperStringTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskSchedulerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimesTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TripleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WeatherStationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordCount.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/NP/src/AV/AV7/RandomPicker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="Kolokviumi2023.PrvKolokvium.StreamingPlatform" />
-      <recent name="Kolokviumi2023.PrvKolokvium.FilterAndSort" />
-      <recent name="PrvKolokviumVezbi.Equation_26" />
-      <recent name="PrvKolokviumVezbi.MojDDV_16" />
-      <recent name="PrvKolokviumVezbi.Risk_27" />
+      <recent name="VtorKolokviumVezbi.Discounts" />
+      <recent name="VtorKolokviumVezbi.Audition_1" />
+      <recent name="Labs.Lab4.SuperString" />
+      <recent name="Labs.Lab3.PizzaOrder" />
+      <recent name="Labs.Lab3.IntegerList" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\NP\src\AV\AV7\RandomPicker" />
+      <recent name="D:\GitHub\NP\src\AV\AV5\TextFile\LongestPalindrome" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\NP\src\AV\AV7\RandomPicker\BenfordsLaw" />
+      <recent name="D:\GitHub\NP\src\AV\AV5\BinaryFile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordCount">
-    <configuration name="FilterAndSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kolokviumi2023.PrvKolokvium.FilterAndSort.FilterAndSortTest" />
+  <component name="RunManager" selected="Application.EquationTester">
+    <configuration name="BooksTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.Books_2.BooksTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MojDDVTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.MojDDV_16.MojDDVTest" />
+    <configuration name="DiscountsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.Discounts_3.DiscountsTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrvKolokviumVezbi.Times_7.TimesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.Times_7.TimesTest" />
+    <configuration name="EquationTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrvKolokviumVezbi.Equation_26.EquationTester" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamingPlatformTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kolokviumi2023.PrvKolokvium.StreamingPlatform.StreamingPlatformTest" />
+    <configuration name="File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.FileSystem_4.File" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AV.AV5.TextFile.WordCount.WordCount" />
+    <configuration name="FileSystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.FileSystem_4.FileSystemTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.MojDDVTest" />
-        <item itemvalue="Application.PrvKolokviumVezbi.Times_7.TimesTest" />
-        <item itemvalue="Application.StreamingPlatformTest" />
-        <item itemvalue="Application.FilterAndSortTest" />
+        <item itemvalue="Application.EquationTester" />
+        <item itemvalue="Application.FileSystemTest" />
+        <item itemvalue="Application.File" />
+        <item itemvalue="Application.DiscountsTest" />
+        <item itemvalue="Application.BooksTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +366,21 @@
       <workItem from="1731047270447" duration="12823000" />
       <workItem from="1731159737817" duration="15450000" />
       <workItem from="1731184575008" duration="2561000" />
-      <workItem from="1731233765773" duration="18364000" />
+      <workItem from="1731233765773" duration="34159000" />
+      <workItem from="1731305635287" duration="6731000" />
+      <workItem from="1731402230333" duration="10391000" />
+      <workItem from="1731491309670" duration="8325000" />
+      <workItem from="1731659986436" duration="27185000" />
+      <workItem from="1731776376844" duration="4916000" />
+      <workItem from="1732088289626" duration="1239000" />
+      <workItem from="1732694254831" duration="9544000" />
+      <workItem from="1732824857564" duration="7319000" />
+      <workItem from="1732863515951" duration="2872000" />
+      <workItem from="1733078770139" duration="2007000" />
+      <workItem from="1733220658337" duration="4294000" />
+      <workItem from="1733242009594" duration="4041000" />
+      <workItem from="1733337715151" duration="7073000" />
+      <workItem from="1733422651374" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -306,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731251536687</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tasks added.">
+      <option name="closed" value="true" />
+      <created>1731257487296</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731257487296</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,12 +551,22 @@
           </properties>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Labs/Lab3/PizzaOrder/PizzaOrderTest.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Labs/Lab3/Queue/Queue.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Labs/Lab3/Queue/QueueTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Collections.sort(items, new Comparator&lt;Item&gt;() {&#10;    @Override&#10;    public int compare(Item o1, Item o2) {&#10;        return 0;&#10;    }&#10;})" language="JAVA" custom="Kolokviumi2023.PrvKolokvium.StreamingPlatform.Item" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
