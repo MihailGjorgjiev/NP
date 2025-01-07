@@ -1,44 +1,37 @@
 package VtorKolokviumVezbi.PayrollSystem_7;
 
-import java.util.Arrays;
+import java.util.List;
 
 public class FreelanceEmployee extends Employee {
-    private int numTickets;
-    private int sumTickets;
-    private double payment;
-    public FreelanceEmployee(String id,String level,int[] tickets,double tokenRate) {
-        super(id,level);
-        numTickets=tickets.length;
-        sumTickets= Arrays.stream(tickets).sum();
-        setPayment(tokenRate);
-    }
-    private void setPayment(double tokenRate){
-        payment=sumTickets*tokenRate;
+    private List<Integer> tickets;
+
+
+    public FreelanceEmployee(String id, String level, double rate, String bonus, List<Integer> tickets) {
+        super(id, level, rate, bonus);
+        this.tickets = tickets;
     }
 
-    public int getNumTickets() {
-        return numTickets;
+    public List<Integer> getTickets() {
+        return tickets;
     }
 
-    public int getSumTickets() {
-        return sumTickets;
+    public void setTickets(List<Integer> tickets) {
+        this.tickets = tickets;
     }
 
-    @Override
-    public double getPayment() {
-        return payment;
+    public int ticketSum() {
+        return tickets.stream().mapToInt(i -> i).sum();
     }
 
     @Override
-    public int compareTo(Employee o) {
-        return Double.compare(getPayment(),o.getPayment());
+    public double salary() {
+        return getRate() * ticketSum();
+
     }
 
     @Override
     public String toString() {
-        String result=super.toString();
-        result+=String.format(" Tickets count: %d Tickets points: %d",numTickets,sumTickets);
-
-        return result;
+        String baseString = super.toString();
+        return baseString + String.format(" Tickets count: %d Tickets points: %d", tickets.size(), ticketSum());
     }
 }

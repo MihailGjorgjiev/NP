@@ -1,5 +1,6 @@
 package VtorKolokviumVezbi.PayrollSystem_7;
 
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -21,11 +22,11 @@ public class PayrollSystemTest2 {
         PayrollSystem ps = new PayrollSystem(hourlyRateByLevel, ticketRateByLevel);
         Employee emp = null;
         for (int i = 0; i < employeesCount; i++) {
-//            try {
-//                emp = ps.createEmployee(sc.nextLine());
-//            } catch (BonusNotAllowedException e) {
-//                System.out.println(e.getMessage());
-//            }
+            try {
+                emp = ps.createEmployee(sc.nextLine());
+            } catch (BonusNotAllowedException e) {
+                System.out.println(e.getMessage());
+            }
         }
 
         int testCase = Integer.parseInt(sc.nextLine());
@@ -36,20 +37,20 @@ public class PayrollSystemTest2 {
                     System.out.println(emp);
                 break;
             case 2: //Testing getOvertimeSalaryForLevels()
-//                ps.getOvertimeSalaryForLevels().forEach((level, overtimeSalary) -> {
-//                    System.out.printf("Level: %s Overtime salary: %.2f\n", level, overtimeSalary);
-//                });
+                ps.getOvertimeSalaryForLevels().forEach((level, overtimeSalary) -> {
+                    System.out.printf("Level: %s Overtime salary: %.2f\n", level, overtimeSalary);
+                });
                 break;
             case 3: //Testing printStatisticsForOvertimeSalary()
-//                ps.printStatisticsForOvertimeSalary();
+                ps.printStatisticsForOvertimeSalary();
                 break;
             case 4: //Testing ticketsDoneByLevel
-//                ps.ticketsDoneByLevel().forEach((level, overtimeSalary) -> {
-//                    System.out.printf("Level: %s Tickets by level: %d\n", level, overtimeSalary);
-//                });
+                ps.ticketsDoneByLevel().forEach((level, overtimeSalary) -> {
+                    System.out.printf("Level: %s Tickets by level: %d\n", level, overtimeSalary);
+                });
                 break;
             case 5: //Testing getFirstNEmployeesByBonus (int n)
-//                ps.getFirstNEmployeesByBonus(Integer.parseInt(sc.nextLine())).forEach(System.out::println);
+                ps.getFirstNEmployeesByBonus(Integer.parseInt(sc.nextLine())).forEach(System.out::println);
                 break;
         }
 

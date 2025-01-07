@@ -8,12 +8,12 @@ public class StopCoronaApp {
     private Map<String, User> users;
 
     public StopCoronaApp() {
-        this.users = new HashMap<>();
+        this.users = new TreeMap<>();
     }
 
     public void addUser(String name, String id) throws UserAlreadyExistException {
         if (users.containsKey(id)) {
-            throw new UserAlreadyExistException("UserAlreadyExistException");
+            throw new UserAlreadyExistException(String.format("User with id %s already exists",id));
         }
         users.put(id, new User(id, name));
     }
@@ -27,35 +27,45 @@ public class StopCoronaApp {
     }
 
     public Map<User, Integer> getDirectContacts(User u) {
-        return users.values().stream()
-                .filter(user -> !user.getId().equals(u.getId()))
-                .map(user -> Map.entry(user, user.totalDirectContacts(u)))
-                .filter(userIntegerEntry -> userIntegerEntry.getValue() != 0)
-                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        Map<User, Integer> result = new TreeMap<>(Comparator.comparing(User::getId));
+
+        users.values().stream()
+                .filter(user -> !user.equals(u))
+                .filter(user -> user.totalDirectContacts(u) != 0)
+                .forEach(user -> result.put(user, u.totalDirectContacts(user)));
+
+        return result;
 
     }
 
     public Collection<User> getIndirectContacts(User u) {
-        Set<User> directContacts = getDirectContacts(u).keySet();
-        return directContacts.stream()
-                .map(user -> getDirectContacts(user).keySet())
-                .flatMap(Collection::stream)
-                .filter(user -> !directContacts.contains(user))
-                .filter(user -> !user.getId().equals(u.getId()))
-                .collect(Collectors.toCollection(HashSet::new));
+        Comparator<User> comparator =
+                Comparator.comparing(User::getName)
+                        .thenComparing(User::getId);
+
+        Map<User, Integer> directContacts = getDirectContacts(u);
+
+        return directContacts.keySet().stream()
+                .flatMap(user -> getDirectContacts(user).keySet().stream())
+                .filter(user -> !directContacts.containsKey(user) && !user.equals(u))
+                .collect(Collectors.toCollection(
+                        () -> new TreeSet<>(comparator)
+                ));
     }
 
 
     public void createReport() {
         int sumDirect = 0;
         int sumIndirect = 0;
-
+        int totalInfected= (int) users.values().stream().filter(User::isInfected).count();
         users.values().stream()
                 .filter(User::isInfected)
+                .sorted(Comparator.comparing(User::getTimeInfected))
                 .forEach(user -> {
                     System.out.println(user);
                     System.out.println("Direct contacts:");
                     getDirectContacts(user).entrySet().stream()
+                            .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                             .forEach(entry -> {
                                 String contactName = entry.getKey().getName();
                                 String contactId = entry.getKey().getId().substring(0, 4) + "***";
@@ -88,8 +98,8 @@ public class StopCoronaApp {
                 .filter(User::isInfected)
                 .mapToInt(u -> getIndirectContacts(u).size()).sum();
 
-        System.out.println(String.format("Average direct contacts: %.4f",(double)directSum/ users.size()));
-        System.out.println(String.format("Average indirect contacts: %.4f",(double)indirectSum/ users.size()));
+        System.out.println(String.format("Average direct contacts: %.4f",(double)directSum/ totalInfected));
+        System.out.println(String.format("Average indirect contacts: %.4f",(double)indirectSum/ totalInfected));
 
     }
 }

@@ -1,5 +1,8 @@
 package VtorKolokviumVezbi.StopCorona_10;
 
+import CollectionBook.Streams.CoronavirusApp.LocationUtils;
+
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -33,17 +36,11 @@ public class User {
     }
 
     public int totalDirectContacts(User u){
-        int totalContacts=0;
-        for(ILocation l1:locations){
-            for(ILocation l2:u.locations){
-                double x2=Math.pow(l1.getLatitude()-l2.getLatitude(),2);
-                double y2=Math.pow(l1.getLongitude()-l2.getLongitude(),2);
-                if(x2+y2<=2){
-                    totalContacts++;
-                }
-            }
-        }
-        return totalContacts;
+        return locations.stream()
+                .flatMapToInt(l1 -> u.locations.stream()
+                        .mapToInt(l2 ->
+                                StopCoronaTest.isDanger(l1, l2) ? 1 : 0))
+                .sum();
     }
 
     public String getId() {

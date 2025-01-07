@@ -85,7 +85,8 @@ public class GenericCollectionTest {
 
     private static void printResultsFromItemsFromCategories(
             GenericCollection<?> collection, List<String> categories) {
-        collection.itemsFromCategories(categories).forEach(element -> System.out.println(element.toString()));
+        collection.itemsFromCategories(categories)
+                .forEach(element -> System.out.println(element.toString()));
     }
 
     private static void printResultsFromFindAllBetween(

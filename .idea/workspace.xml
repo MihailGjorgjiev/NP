@@ -5,109 +5,186 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f3a9ca-01bf-44a6-9d8f-cf01cd63ea6b" name="Changes" comment="Tasks added.">
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab5/Sets/Faculty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab5/Sets/SetsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab5/Sets/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab5/Sets/StudentExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab5/TermFrequency/TermFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab5/TermFrequency/TermFrequencyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/Anagrams/Anagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/ChatSystem/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/ChatSystem/ChatSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/ChatSystem/ChatSystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/ChatSystem/NoSuchRoomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/ChatSystem/NoSuchUserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/Scheduler/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab6/Scheduler/SchedulerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/BonusDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/BonusNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/EmployeeBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/FixedBonusDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/FreelanceEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/PayrollSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/PayrollSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Payroll/PercentageBonusDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/GroupPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/InternationalPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/InvalidPackageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/LocalPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/Package.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/PostOffice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/PostalOffice/PostOfficeTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/AbstractState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/FWDState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/Mp3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/PatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/PauseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/PlayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/REWState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/Song/StopState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/DeadlineNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/ITask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/PriorityTaskDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/SimpleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/TaskDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/TaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/TaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/TasksManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/DesignPatterns/TaskManager/TimeTaskDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/CanvasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/IShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/InvalidDimensionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/InvalidIDException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Canvas/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/CoronavirusApp/ILocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/CoronavirusApp/LocationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/CoronavirusApp/StopCoronaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/CoronavirusApp/StopCoronaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/CoronavirusApp/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/CoronavirusApp/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/FacultyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/OperationNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/StudentOnFourYearStudies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/Faculty/StudentOnThreeYearsStudies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/GenericCollection/GenericCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/GenericCollection/GenericCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/GenericCollection/IHasTimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/GenericCollection/IntegerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/GenericCollection/StringElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/GenericCollection/TwoIntegersElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/MessageBrokers/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/MessageBrokers/MessageBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/MessageBrokers/MessageBrokersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/MessageBrokers/PartitionDoesNotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/MessageBrokers/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionBook/Streams/MessageBrokers/UnsupprotedOperationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/Parking/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/Parking/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/Parking/ParkingEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/Parking/ParkingTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/StreamingPlatform/CosineSimilarityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/StreamingPlatform/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/StreamingPlatform/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/StreamingPlatform/StreamingPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/StreamingPlatform/StreamingPlatform2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/StreamingPlatform/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Faculty/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Faculty/GroupByTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Faculty/Record.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Faculty/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/AbstractState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/ForwardState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/MP3Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/PatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/PauseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/PlayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/RewindState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/Song.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/Pattern/StopState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/TriviaGame/TriviaData.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/TriviaGame/TriviaFFQuestion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/TriviaGame/TriviaGame.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/TriviaGame/TriviaQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/TriviaGame/TriviaTFQuestion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/XML/XMLComponent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/XML/XMLComposite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/XML/XMLLeaf.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Labs/Lab7/XML/XMLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Airports_15/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Airports_15/Airports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Airports_15/AirportsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Airports_15/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/BlockContainer_16/BlockContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/BlockContainer_16/BlockContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/CanvasTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/InvalidDimensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/InvalidIDException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Canvas_8/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Car_14/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Car_14/CarCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Car_14/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Cluster_18/Cluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Cluster_18/ClusterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Cluster_18/IdentifiablePoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Cluster_18/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DailyTemperature_20/DailyMeasurements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DailyTemperature_20/DailyTemperatureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DailyTemperature_20/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/EventCalendar_22/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/EventCalendar_22/EventCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/EventCalendar_22/EventCalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/EventCalendar_22/WrongDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/IHasTimestamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/IntegerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/StringElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/TwoIntegersElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/MapSorting_19/MapSortingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_6/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_6/FreelanceEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_6/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_6/PayrollSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_6/PayrollSystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/FreelanceEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/PayrollSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/PayrollSystemTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PhoneBook_21/DuplicateNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PhoneBook_21/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PhoneBook_21/PhoneBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/SeatNotAllowedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/SeatTakenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/Sector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/Stadium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/StaduimTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/ILocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/StopCoronaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/StopCoronaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/UserAlreadyExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TasksManager_11/DeadlineNotValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TasksManager_11/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TasksManager_11/TaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TasksManager_11/TasksManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TextProcessor_12/CosineSimilarityCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TextProcessor_12/TextProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/TextProcessor_12/TextProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WeatherApplication_17/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WeatherApplication_17/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WeatherApplication_17/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WeatherApplication_17/WeatherApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WeatherApplication_17/WeatherDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WeatherApplication_17/WeatherReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WordVectors_13/WordVectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/WordVectors_13/WordVectorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Course_31/AdvancedProgrammingCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Course_31/CourseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Course_31/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/DeliveryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/DeliveryAppTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/LocationCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/DeliveryApp_36/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/FacultyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/OperationNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/FootballTable_29/FootballTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/FootballTable_29/FootballTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/FootballTable_29/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericMap_32/GenericMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericMap_32/MapOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericMap_32/MergeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/LabExercises_23/LabExercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/LabExercises_23/LabExercisesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/LabExercises_23/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Logs_33/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Logs_33/LogCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Logs_33/LogsTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Logs_33/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Logs_33/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Movies_24/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Movies_24/MoviesList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Movies_24/MoviesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Names_27/Names.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Names_27/NamesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlinePayments_35/OnlinePayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlinePayments_35/OnlinePaymentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlinePayments_35/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlineShop_25/COMPARATOR_TYPE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlineShop_25/OnlineShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlineShop_25/OnlineShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlineShop_25/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/OnlineShop_25/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/BonusNotAllowedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Post_37/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Post_37/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Post_37/PostTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/QuizProcessor_38/QuizProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/QuizProcessor_38/QuizProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StudentRecords_26/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StudentRecords_26/StudentRecords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StudentRecords_26/StudentRecordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/AbstractState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/Call.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/DurationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/InProgressState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/PausedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/RingingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/TelcoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Telco_30/TelcoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/zzztemp/StopCoronaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/FreelanceEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/FreelanceEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/PayrollSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/PayrollSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/PayrollSystemTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/PayrollSystem_7/PayrollSystemTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/Sector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/Staduim_9/Sector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/StopCoronaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/StopCoronaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/StopCoronaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/StopCoronaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VtorKolokviumVezbi/StopCorona_10/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +194,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Exception" />
         <option value="Enum" />
+        <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -180,14 +257,17 @@
     "Application.CheckIn.executor": "Run",
     "Application.CirclesTest.executor": "Run",
     "Application.ClusterTest.executor": "Run",
+    "Application.CollectionBook.Streams.CoronavirusApp.StopCoronaTest.executor": "Run",
     "Application.ComplexNumberTest.executor": "Run",
     "Application.ComponentTest.executor": "Run",
     "Application.ContactsTester.executor": "Debug",
+    "Application.CourseTest.executor": "Run",
     "Application.DailyTemperatureTest.executor": "Run",
     "Application.Date.executor": "Run",
     "Application.Deck.executor": "Run",
     "Application.DiscountsTest.executor": "Run",
     "Application.DoubleMatrixTester.executor": "Run",
+    "Application.Employee.executor": "Debug",
     "Application.EquationTester.executor": "Run",
     "Application.EvaluatorTest.executor": "Run",
     "Application.EventCalendar.executor": "Debug",
@@ -197,17 +277,22 @@
     "Application.File.executor": "Run",
     "Application.FileSystemTest.executor": "Run",
     "Application.FilterAndSortTest.executor": "Debug",
+    "Application.FootballTableTest.executor": "Run",
     "Application.FrontPageTest.executor": "Run",
     "Application.GenericCollectionTest.executor": "Run",
     "Application.GenericFractionTest.executor": "Run",
+    "Application.GenericMapTest.executor": "Run",
+    "Application.GroupByTest.executor": "Run",
     "Application.IntegerArray.executor": "Debug",
     "Application.IntegerElement.executor": "Debug",
     "Application.IntegerListTest.executor": "Run",
+    "Application.LabExercisesTest.executor": "Run",
     "Application.LoadedCoinTest.executor": "Run",
     "Application.LocalDateTest.executor": "Run",
     "Application.LocalDateTimeTest.executor": "Run",
     "Application.LocalTimeTest.executor": "Run",
     "Application.LoggerTest.executor": "Run",
+    "Application.LogsTester.executor": "Run",
     "Application.LongestPalindrome.executor": "Run",
     "Application.MapSortingTest.executor": "Run",
     "Application.Maths.executor": "Run",
@@ -216,17 +301,26 @@
     "Application.MinMax.executor": "Debug",
     "Application.MojDDVTest.executor": "Run",
     "Application.MojDDVTest2.executor": "Run",
+    "Application.MoviesTest.executor": "Run",
     "Application.MultipleDeck.executor": "Run",
+    "Application.NamesTest.executor": "Run",
     "Application.NumberPrinter.executor": "Run",
+    "Application.OnlinePaymentsTest.executor": "Run",
+    "Application.OnlineShopTest.executor": "Run",
+    "Application.ParkingTesting.executor": "Debug",
     "Application.PatternTest.executor": "Run",
     "Application.PayrollSystemTest.executor": "Run",
+    "Application.PayrollSystemTest2.executor": "Run",
     "Application.PhoneBookTest.executor": "Run",
     "Application.PizzaOrderTest.executor": "Run",
+    "Application.PostOfficeTester.executor": "Run",
+    "Application.PostTester.executor": "Run",
     "Application.PriorityQueue.executor": "Run",
     "Application.PrvKolokviumVezbi.MojDDV_15.MojDDVTest.executor": "Run",
     "Application.PrvKolokviumVezbi.Risk_27.RiskTester.executor": "Run",
     "Application.PrvKolokviumVezbi.Times_7.TimesTest.executor": "Run",
     "Application.QueueTest.executor": "Run",
+    "Application.QuizProcessorTest.executor": "Run",
     "Application.QuizTest.executor": "Run",
     "Application.RaceTest.executor": "Run",
     "Application.RandomPicker.executor": "Run",
@@ -247,14 +341,18 @@
     "Application.ShoppingTest.executor": "Run",
     "Application.StaduimTest.executor": "Run",
     "Application.StopCoronaTest.executor": "Run",
+    "Application.StreamingPlatform.executor": "Run",
+    "Application.StreamingPlatform2.executor": "Run",
     "Application.StreamingPlatformTest.executor": "Run",
     "Application.StringPrefix.executor": "Run",
     "Application.Student.executor": "Run",
+    "Application.StudentRecordsTest.executor": "Run",
     "Application.Subtitles.executor": "Run",
     "Application.SubtitlesTest.executor": "Run",
     "Application.SuperStringTest.executor": "Run",
     "Application.TaskSchedulerTest.executor": "Run",
     "Application.TasksManagerTest.executor": "Run",
+    "Application.TelcoTest.executor": "Run",
     "Application.TermFrequency.executor": "Run",
     "Application.TermFrequencyTest.executor": "Debug",
     "Application.TextFreq.executor": "Run",
@@ -263,6 +361,7 @@
     "Application.TimesTest.executor": "Run",
     "Application.TripleTest.executor": "Run",
     "Application.TriviaGame.executor": "Run",
+    "Application.VtorKolokviumVezbi.zzztemp.StopCoronaTest.executor": "Run",
     "Application.WeatherApplication.executor": "Run",
     "Application.WeatherStationTest.executor": "Run",
     "Application.WordCount.executor": "Run",
@@ -285,11 +384,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="VtorKolokviumVezbi.EventCalendar_22" />
-      <recent name="Labs.Lab7.XML" />
-      <recent name="Labs.Lab7.Pattern" />
-      <recent name="Labs.Lab6.Scheduler" />
-      <recent name="Labs.Lab6.ChatSystem" />
+      <recent name="Kolokviumi2023.VtorKolokvium.StreamingPlatform" />
+      <recent name="Kolokviumi2023.VtorKolokvium.Parking" />
+      <recent name="CollectionBook.DesignPatterns.PostalOffice" />
+      <recent name="CollectionBook.DesignPatterns.Song" />
+      <recent name="VtorKolokviumVezbi.Faculty_28" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\NP\src\VtorKolokviumVezbi\PayrollSystem_7" />
@@ -304,37 +403,37 @@
       <recent name="Labs.Lab7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EventCalendarTest">
-    <configuration name="EventCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.EventCalendar_22.EventCalendar" />
+  <component name="RunManager" selected="Application.StreamingPlatform2">
+    <configuration name="CollectionBook.Streams.CoronavirusApp.StopCoronaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionBook.Streams.CoronavirusApp.StopCoronaTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventCalendarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.EventCalendar_22.EventCalendarTest" />
+    <configuration name="ParkingTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kolokviumi2023.VtorKolokvium.Parking.ParkingTesting" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Labs.Lab7.Pattern.PatternTest" />
+    <configuration name="StopCoronaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VtorKolokviumVezbi.StopCorona_10.StopCoronaTest" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriviaGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Labs.Lab7.TriviaGame.TriviaGame" />
+    <configuration name="StreamingPlatform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kolokviumi2023.VtorKolokvium.StreamingPlatform.StreamingPlatform" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Labs.Lab7.XML.XMLTest" />
+    <configuration name="StreamingPlatform2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kolokviumi2023.VtorKolokvium.StreamingPlatform.StreamingPlatform2" />
       <module name="NP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -342,11 +441,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EventCalendarTest" />
-        <item itemvalue="Application.EventCalendar" />
-        <item itemvalue="Application.TriviaGame" />
-        <item itemvalue="Application.XMLTest" />
-        <item itemvalue="Application.PatternTest" />
+        <item itemvalue="Application.StreamingPlatform2" />
+        <item itemvalue="Application.StreamingPlatform" />
+        <item itemvalue="Application.ParkingTesting" />
+        <item itemvalue="Application.StopCoronaTest" />
+        <item itemvalue="Application.CollectionBook.Streams.CoronavirusApp.StopCoronaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -409,6 +508,26 @@
       <workItem from="1733812957173" duration="275000" />
       <workItem from="1734032267002" duration="9467000" />
       <workItem from="1734081333548" duration="40706000" />
+      <workItem from="1734377916722" duration="5713000" />
+      <workItem from="1734430601041" duration="1937000" />
+      <workItem from="1734715589694" duration="5043000" />
+      <workItem from="1734867649670" duration="16801000" />
+      <workItem from="1734976834446" duration="7615000" />
+      <workItem from="1735033413221" duration="4212000" />
+      <workItem from="1735068704331" duration="5112000" />
+      <workItem from="1735133971346" duration="5136000" />
+      <workItem from="1735237654533" duration="6206000" />
+      <workItem from="1735286578342" duration="7435000" />
+      <workItem from="1735382888476" duration="1914000" />
+      <workItem from="1735392053404" duration="9411000" />
+      <workItem from="1735629807938" duration="11360000" />
+      <workItem from="1735732437941" duration="12245000" />
+      <workItem from="1735837037390" duration="1256000" />
+      <workItem from="1735893348901" duration="14749000" />
+      <workItem from="1735923019539" duration="1193000" />
+      <workItem from="1735975452721" duration="18011000" />
+      <workItem from="1736072448079" duration="18842000" />
+      <workItem from="1736157666738" duration="18089000" />
     </task>
     <task id="LOCAL-00001" summary="AV1 added">
       <option name="closed" value="true" />
@@ -514,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733423344120</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Tasks added.">
+      <option name="closed" value="true" />
+      <created>1734378063259</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734378063259</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,6 +738,24 @@
           <url>file://$PROJECT_DIR$/src/Labs/Lab6/Scheduler/SchedulerTest.java</url>
           <line>40</line>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/VtorKolokviumVezbi/GenericCollection_5/GenericCollectionTest.java</url>
+          <line>87</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/VtorKolokviumVezbi/Faculty_28/Faculty.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Kolokviumi2023/VtorKolokvium/Parking/Parking.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
